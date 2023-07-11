@@ -1,8 +1,12 @@
 name: Java CI CD
 
 on:
-  push:
-    branches: main
+  pull_request_target:
+    types:
+      - merged
+    branches: [main]
+#   push:
+#     branches: main
 
 jobs:
   build:
