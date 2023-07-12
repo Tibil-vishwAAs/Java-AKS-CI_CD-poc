@@ -3,7 +3,7 @@ name: Java CI CD
 on:
   pull_request_target:
     types:
-      - merged
+      - closed
     branches: [main]
 #   push:
 #     branches: main
