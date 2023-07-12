@@ -28,8 +28,8 @@ jobs:
 
     - name: Build with Maven # also packages the application
       run: mvn -B package -DskipTests --file pom.xml
-      working-directory: ./PortalBackend/Demo
+#      working-directory: ./PortalBackend/Demo
 
     - name: Run Tests with Maven # also packages the application
       run: mvn -B test -Dspring.profiles.active=test --file pom.xml
-      working-directory: ./PortalBackend/Demo
+#      working-directory: ./PortalBackend/Demo
