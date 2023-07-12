@@ -38,7 +38,7 @@ jobs:
       - name: Build and push docker image
         uses: docker/build-push-action@v2
         with:
-          context: ./Dockerfile
+          context: .
 
       - name: Log in to Azure
         uses: azure/login@v1
