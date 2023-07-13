@@ -7,10 +7,10 @@ spec:
   rules:
     - http:
         paths:
-          - path: /
+          - path: /employees
             pathType: Prefix
             backend:
               service:
-                name: demo-ingress-app
+                name: demo-service
                 port:
-                  number: 8000
+                  number: 8080
