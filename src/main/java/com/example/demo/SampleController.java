@@ -14,9 +14,9 @@ public class SampleController {
     @GetMapping("/employees")
     public ResponseEntity<List<Employee>> getEmployees() {
         List<Employee> employees = new ArrayList<>();
-        employees.add(new Employee(1, "Amith", "Software Engineer"));
-        employees.add(new Employee(2, "Taher ", "Java Expert"));
-        employees.add(new Employee(3, "Devaraja ", "QA Expert"));
+        employees.add(new Employee(1, "Amith Rangadhol", "Software Engineer"));
+        employees.add(new Employee(2, "Taher Makandar ", "Java Expert"));
+        employees.add(new Employee(3, "Devaraja S ", "QA Expert"));
 
 
         return ResponseEntity.ok(employees);
