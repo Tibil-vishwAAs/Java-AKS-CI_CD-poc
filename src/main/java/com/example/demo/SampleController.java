@@ -16,7 +16,7 @@ public class SampleController {
         List<Employee> employees = new ArrayList<>();
         employees.add(new Employee(1, "Amith Rangadhol", "Software Engineer"));
         employees.add(new Employee(2, "Taher Makandar ", "Java Expert"));
-        employees.add(new Employee(3, "Devaraja S ", "QA Expert"));
+        employees.add(new Employee(3, "Devaraja ", "QA Expert"));
 
 
         return ResponseEntity.ok(employees);
