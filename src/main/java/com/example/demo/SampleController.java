@@ -18,6 +18,7 @@ public class SampleController {
         employees.add(new Employee(2, "Taher Makandar ", "Java Expert"));
         employees.add(new Employee(3, "Devaraja ", "QA Expert"));
         employees.add(new Employee(4, "Sidramaya ", "CM"));
+        employees.add(new Employee(5, "Narendra Modi ", "PM"));
 
         return ResponseEntity.ok(employees);
     }
