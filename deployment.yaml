@@ -16,8 +16,7 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: krishnarj/demo:latest
-          imagePullPolicy: Always
+          image: vishwassregistry.azurecr.io/java_test:v1
           ports:
             - containerPort: 8080
 
